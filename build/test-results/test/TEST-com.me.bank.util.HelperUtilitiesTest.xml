@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.me.bank.util.HelperUtilitiesTest" tests="3" skipped="1" failures="0" errors="0" timestamp="2019-04-21T14:07:20" hostname="WKSP000A67C8" time="0.009">
+  <properties/>
+  <testcase name="testingParseInputCsvFile" classname="com.me.bank.util.HelperUtilitiesTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testingFormatDisplayAmount" classname="com.me.bank.util.HelperUtilitiesTest" time="0.008"/>
+  <testcase name="testingParseToLocalDateTime" classname="com.me.bank.util.HelperUtilitiesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

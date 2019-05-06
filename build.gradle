@@ -1,0 +1,33 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = 'com.me.bank.TransactionsAnalyzer'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+sourceSets {
+    main {
+        java.srcDirs = ['src']
+    }
+	test {
+    	java.srcDirs = ['test']
+	}    
+}
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    baseName = 'me-transactions-analyzer'
+    version =  '1.0.0'
+    manifest {
+        attributes 'Main-Class': 'com.me.bank.TransactionsAnalyzer'
+    }    
+}
+
+dependencies {
+    testCompile "junit:junit:4.12"
+}
